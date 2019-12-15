@@ -1,1 +1,54 @@
+* {
+  box-sizing: border-box;
+}
 
+.listcontainer1 {
+  margin: 15px auto;
+  padding: 0 24px;
+  width: 100%;
+}
+
+.listmasonry-grid1 {
+  column-width: 296px;
+  column-gap: 17px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+/* Placeholder divs to prevent page jumping */
+.cell {
+  position: relative;
+  margin-bottom: 24px;
+  height: 0;
+  overflow: hidden;
+  background: #eee;
+  break-inside: avoid;
+  border-radius: 0px;
+}
+
+.cell img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ratio1x1 {
+  padding-bottom: 100%;  
+}
+.ratio3x4 {
+  padding-bottom: 133.33%;
+}
+.ratio4x3 {
+  padding-bottom: 75%;
+}
+.ratio16x9 {
+  padding-bottom: 56.25%;
+}
+.ratio9x16 {
+  padding-bottom: 177.77%;
+}
